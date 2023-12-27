@@ -16,5 +16,5 @@ echo "Example: this_is_what_you_tyoe@kali-[~]"
 read varusername
 sudo sed -i 's+YOUR_USER_NAME+'$varusername'+' spProxy
 cd
-sudo chmod -R 777 SP-Proxy/
+sudo chmod +x SP-Proxy/
 ./spProxy
