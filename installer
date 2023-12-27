@@ -2,8 +2,8 @@
 # Written by: M.B. Hudson (2020)
 echo "Best to grant your terminal with a no password sudo"
 pause 5
-sudo install kali-grant-root
-sudo dpkg-reconfigure kali-grant-root
+sudo apt-get install kali-grant-root
+sudo apt-get dpkg-reconfigure kali-grant-root
 cd
 clear
 echo "PLEASE ENTER THE USERNAME OF THE SESSION YOU ARE CURRENTLY LOGGED IN AS:" 
